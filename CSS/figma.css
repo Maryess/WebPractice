@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap");
+@fa-font-path :"../"
 *,
 *::before,
 *::after {
@@ -8,7 +9,6 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-
 a {
   text-decoration: none;
 }
@@ -145,7 +145,7 @@ body._lock {
   display: none;
 }
 
-@media (max-width: 856px) {
+@media (max-width: 767.98px) {
   .menu__icon {
     display: block;
     width: 30px;
@@ -557,4 +557,35 @@ body._lock {
   left: 0;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.footer__content {
+  max-height: 185px;
+}
+
+.footer__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 35px;
+}
+
+.icon {
+  margin-right: 35px;
+  font-size: 30px;
+  color: #21243D;
+}
+.icon:hover {
+  text-shadow: 1px 3px 5px #585a69;
+}
+
+.icon-insta {
+  font-size: 37px;
+}
+
+.footer__copy {
+  text-align: center;
 }
